@@ -1,0 +1,22 @@
+<app-header></app-header>
+<main>
+
+  <mat-tab-group mat-stretch-tabs class="mat-tab-group">
+    <mat-tab label="Node-Express">
+      <ng-template matTabContent>
+        <app-post-list></app-post-list>
+      </ng-template>
+    </mat-tab>
+    <mat-tab label="GraphQL">
+      <ng-template matTabContent>
+        <app-user-list></app-user-list>
+      </ng-template>
+    </mat-tab>
+    <mat-tab label="Combined">
+      <ng-template matTabContent>
+        <app-concat-data></app-concat-data>
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+
+</main>
